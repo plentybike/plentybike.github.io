@@ -1,0 +1,1023 @@
+{
+  "settings": {
+    "name": "Site-03-15_1235-clone",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "unicore",
+      "title": "Unicore-Rus",
+      "styling": {
+        "primaryColor": "#f52549",
+        "successColor": "#03a9f4",
+        "infoColor": "#fc002c",
+        "warningColor": "#faaf40",
+        "dangerColor": "#f44336",
+        "titleFont": "Montserrat",
+        "textFont": "Montserrat",
+        "isSquareButtons": false
+      },
+      "additionalSetColors": [
+        "#4c6972",
+        "#ececec",
+        "#3cd2f9",
+        "#3c3c3c",
+        "#212121",
+        "#e6e6e6",
+        "#1d1d1d"
+      ]
+    },
+    "versionFirst": "4.5.2",
+    "uniqCompNum": 113,
+    "versionPublish": "4.6.7",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Электровелосипеды на литых дисках",
+        "meta_descr": "Велосипеды в Москве со складной рамой на литых дисках. Высокое качество за приемлемую цену.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showMedia": true,
+            "paddingTop": 2,
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/15.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.95
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img hl-image",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/10-1-830x508.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "ЭЛЕКТРО<br>ВЕЛОСИПЕД<br>PLENTY",
+          "text": "Электрический складной велосипед на литых дисках, уверенный вид и при этом легкость во всем - в движении, управлении, в выполнении любых задач. Уже с первых секунд вы почувствуете удобство и безопасность езды.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"index.html#pricing-table1-2t\">УЗНАТЬ ЦЕНУ&nbsp;<i class=\"fa fa-shopping-basket\"></i></a> ",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header8",
+          "_anchor": "header8-21",
+          "_styles": {
+            "H3": {
+              "color": "#161616"
+            },
+            "P": {
+              "color": "#161616",
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitles": true,
+            "showText": true,
+            "elements": "3",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#fafafa",
+            "overlayOpacity": "1",
+            "showIcons": true,
+            "iconsColor": "#03a9f4",
+            "icon1": "fa-plug",
+            "icon2": "fa-bicycle",
+            "icon3": "fa-spinner"
+          },
+          "title1": "&nbsp; ЭЛЕКТРИЧЕСКИЙ",
+          "title2": "СКЛАДНОЙ",
+          "title3": "ЛИТЫЕ ДИСКИ",
+          "text1": "Электрический двигатель с емкой батареей позволят ездить без подзарядки более 60 км.",
+          "text2": "Складной велосипед пускают в метро. Его удобно перевозить и хранить прямо дома.",
+          "text3": "Велосипед с шестью литыми лопостями обладает высокой аэродинамикой.",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features6",
+          "_anchor": "features6-2c",
+          "_styles": {
+            "H2": {
+              "font-size": "20px"
+            },
+            "P": {
+              "font-size": "16px",
+              "text-align": "left"
+            },
+            "i": {
+              "color": "#03a9f4 !important"
+            }
+          }
+        },
+        {
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            },
+            ".btn": {
+              "font-size": "17px"
+            }
+          },
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": false,
+            "transparent": false,
+            "bgColor": "#ffffff",
+            "fontSize": "1",
+            "fontName": {},
+            "fontColor": "#000000"
+          },
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box4-o\">ВИДЕО-Обзор</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box5-x\" aria-expanded=\"false\">ХАРАКТЕРИСТИКИ</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#testimonials3-z\" aria-expanded=\"false\">ОТЗЫВЫ</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn mbr-title-font btn-success\" href=\"index.html#header23-2w\">ТЕСТ-ДРАЙВ</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/2022-bicycle-512-copy-128x128.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "http://mobiris.ru",
+              "title": ""
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"index.html#header4-16\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">PLENTY</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "dropdown-menu",
+          "_anchor": "dropdown-menu-0"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showMedia": true,
+            "showVideo": true,
+            "VideoUrl": "youtube.com/watch?v=Y6HRh-PzF9E",
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/13.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ececec",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75
+          },
+          "media1": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/000000-877x633.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "media2": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-03-21-at-23.45.24-730x491.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            }
+          },
+          "title": "ПОСМОТРИТЕ КОРОТКОЕ ВИДЕО",
+          "text1": "Удобная посадка и сбаласированый вес  велогибрида сделает вас с ним одним целым. Вам захочется ехать все дальше и дальше.",
+          "text2": "<b>ПОСМОТРЕТЬ</b>",
+          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-primary\">Купить сейчас</a><a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-default btn-border\">Learn More</a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header21",
+          "_anchor": "header21-1v",
+          "_styles": {
+            "H3": {
+              "color": "#0d0505"
+            },
+            "P": {
+              "color": "#0d0505"
+            },
+            "SPAN": {
+              "color": "#f52549",
+              "font-size": "21px"
+            },
+            "B": {
+              "font-size": "18px",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showSubtitles": false,
+            "tabs": "2",
+            "showMedia": true,
+            "bgImageRadio": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/0202-787x654.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Tab Content",
+          "title1": "",
+          "title2": "Tab heading 2",
+          "title3": "Tab heading 3",
+          "title4": "Tab heading 4",
+          "title5": "Tab heading 5",
+          "title6": "Tab heading 6",
+          "tabTitle": "<li class=\"active\" style=\"display: inline-block;\"><a class=\"mbr-title-font\" data-toggle=\"tab\" href=\"#tab1\" aria-expanded=\"true\">ХАРАКТЕРИСТИКИ</a></li><li class=\"\" style=\"display: inline-block;\"><a class=\"mbr-title-font\" data-toggle=\"tab\" href=\"#tab3\" aria-expanded=\"false\">КОМПЛЕКТАЦИЯ</a></li><li class=\"\" style=\"display: none;\"><a class=\"mbr-title-font\" data-toggle=\"tab\" href=\"#tab2\" aria-expanded=\"false\">Creative</a></li><li style=\"display: none\"><a class=\"mbr-title-font\" data-toggle=\"tab\" href=\"#tab4\">Awesome</a></li><li style=\"display: none\"><a class=\"mbr-title-font\" data-toggle=\"tab\" href=\"#tab5\">Amazing</a></li><li style=\"display: none\"><a class=\"mbr-title-font\" data-toggle=\"tab\" href=\"#tab6\">Beautiful</a></li>",
+          "text1_1": "Двигатель: &nbsp; 350 ватт<br>Батарея: &nbsp; 36V12AH<br>Пробег на одном заряде: &nbsp; 60+км.<br>Рама: &nbsp; алюминиевая, складная<br>Размер рамы: &nbsp; 19 (рост 155-190 см.)<br>Максимальная нагрузка: &nbsp;до 130 кг.<br>Количество скоростей: &nbsp; 24<br>Максимальная скорость: &nbsp; 40 км/ч.<br>Колёса: &nbsp; 26 дюймов<br>Диски: &nbsp; литые, 6 лепестков<br>Тип вилки: &nbsp; амортизационная<br>Тормоза: &nbsp; дисковые<br>Навеска: &nbsp; SHIMANO оригинал<br>",
+          "text2_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
+          "text3_1": "Удобная сумка-аккумулятор<br>Датчик скорости<br>Датчик пробега<br>Датчик батареи<br>Защитные крылья<br>Фонарь 70 LUX<br>Инструменты<br>Насос для колес<br>Звонок<br>Противотуманные фары",
+          "text4_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
+          "text5_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
+          "text6_1": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis quam in risus pulvinar ultrices eget non sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae proin accumsan odio.",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content8",
+          "_anchor": "content8-2n",
+          "_styles": {
+            "P": {
+              "font-family": "'PT Sans Narrow', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700",
+              "text-align": "left"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": false,
+            "showInfo": false,
+            "showMedia": true,
+            "showText": true,
+            "bgImageRadio": false,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "media1": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-03-21-at-23.44.57-751x470.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title1": "ЭКОНОМЬ МЕСТО СО СКЛАДНОЙ РАМОЙ",
+          "info1": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text1": "<p><b>Складная рама</b> велосипеда дает ему мобильность и компактность. Складной велосипед в сложенном состоянии будет занимать как минимум вдвое меньше места, чем его нескладывающийся собрат.&nbsp;</p>",
+          "media2": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-03-29-at-22.59.10-742x443.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title2": "ВСЕ ВАЖНЫЕ ПОКАЗАТЕЛИ НА ДИСПЛЕЕ",
+          "info2": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text2": "<p><span style=\"background-color: inherit;\">В штате имеется</span><b style=\"background-color: inherit;\"> бортовой компьютер</b><span style=\"background-color: inherit;\"> с определением скорости, пробега, заряда батареи. На нем также возможно установить функцию круиз-контроля. 5 режимов езды.</span><br></p>",
+          "media3": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-03-22-at-20.17.30-545x426.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title3": "ПЕРЕКЛЮЧЕНИЕ СКОРОСТЕЙ SHIMANO",
+          "info3": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text3": "<p><b>Переключение скоростей</b> происходит благодаря японской навеске SHIMANO с 21 скоростью. С такой навеской ехать в гору или с горы - не проблема!</p>",
+          "media4": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-03-22-at-20.18.00-518x304.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title4": "Bakery egg foods around the world",
+          "info4": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text4": "<p>Вечерние и ночные прогулки требуют от велосипеда наличия <b>хорошего освещения.</b> Особенно это касается тех, кто ездит по паркам, проселочным дорогам, за городом или путешествует.</p>",
+          "media5": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-04-01-at-22.31.41-676x487.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title5": "Bakery egg foods around the world",
+          "info5": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text5": "<p>Удобная <b>переносная сумка-аккумулятор. </b>Необходимое время зарядки 5-6 часов. Бери сумку-аккумулятор домой или в офис для быстрой зарядки.</p>",
+          "media6": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive post-thumb",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-03-21-at-23.45.06-792x427.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title6": "Bakery egg foods around the world",
+          "info6": "<i class=\"fa fa-user\"></i> <a href=\"#\">John Doe</a> &nbsp;&nbsp;<i class=\"fa fa-clock-o\"></i> April 21, 2016 &nbsp;&nbsp;<i class=\"fa fa-comments\"></i> <a href=\"#\">8 Comments</a>",
+          "text6": "<p><b>Литые диски</b> - это очень стильно и модно. Более того, в отличие от дисков на спицах, велосипед на литых дисках обладает более высокими показателями аэродинамики.</p>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box10",
+          "_anchor": "msg-box10-2h"
+        },
+        {
+          "_inherit": "header1",
+          "_params": {
+            "showTitle": false,
+            "showText": true,
+            "showForm": true,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#3cd2f9",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.75,
+            "showIcons": true,
+            "iconsColor": "#212121",
+            "icon1": "fa-bicycle",
+            "icon2": "fa-flag-checkered"
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "title": "ЗАПИСЬ НА ТЕСТ-ДРАЙВ",
+          "title1": "",
+          "title2": "<br>ПОСМОТРИ НА НАШИ ВЕЛОСИПЕДЫ ВЖИВУЮ",
+          "title3": "ПРОКАТИСЬ И УБЕДИСЬ В ТОП КАЧЕСТВЕ",
+          "text1": "Приехав к нам на склад, вы сможете выбрать любой понравившийся электро-велосипед.",
+          "text2": "У нас вы сможете прокатиться с ветерком и оценить все преимущества наших велосипедов.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-block btn-lg btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ЗАПИСАТЬСЯ</a>",
+          "form": {
+            "title": "MESSAGE",
+            "action": "ocunob-as@yandex.ru",
+            "alerts": {
+              "success": "Благодарим за заполнение формы!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "First Name",
+                "customTitle": "Имя"
+              },
+              "lastName": {
+                "visible": false,
+                "title": "Last Name",
+                "customTitle": "Фамилия"
+              },
+              "email": {
+                "visible": false,
+                "title": "Email Address",
+                "customTitle": "Email"
+              },
+              "phone": {
+                "visible": true,
+                "title": "Phone No.",
+                "customTitle": "Телефон"
+              }
+            }
+          },
+          "_name": "header23",
+          "_anchor": "header23-2w",
+          "_styles": {
+            "H2": {
+              "font-size": "48px"
+            },
+            ".intro-box h4": {
+              "font-size": "16px",
+              "color": "#1d1d1d"
+            },
+            "P": {
+              "color": "#1d1d1d"
+            },
+            ".fa": {
+              "color": "#212121"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showMedia": true,
+            "bgImageRadio": false,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/0020921-1389x800.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Универсальная РАМА&nbsp;",
+          "text": "Подходит для роста от 155 см. до 190 см.<br>Рама из прочного алюминиевого сплава.<br>Легко складываемая конструкция.<br>Регулируемое положение сиденья.<br>Регулируемое положение руля.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\">Смотреть видео</a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-2y"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showMedia": true,
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/0-2002-1300x878.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "active": true
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "<br>ВЫБЕРИ СВОЙ ЦВЕТ",
+          "text": "В наличии <b>бело-голубой, черно-красный и черно-зеленый.</b> <br><br>Запишись на ТЕСТ-ДРАЙВ, чтобы увидеть наши велосипеды вживую. У нас вы сможете прокатиться и испытать все преимущества велосипедов перед покупкой!",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\" href=\"index.html#header23-2w\">ЗАПИСАТЬСЯ НА ТЕСТ-ДРАЙВ</a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-2o",
+          "_styles": {
+            "H3": {
+              "font-size": "24px"
+            },
+            "B": {
+              "font-size": "17px"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "elements": "2",
+            "best": "2",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#3cd2f9",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "СПЕЦИАЛЬНАЯ ЦЕНА ДЛЯ МОСКВЫ и МО",
+          "text": "<b>ДЕЙСТВУЕТ СКИДКА 25%, УСПЕЙТЕ ПРИОБРЕСТИ ВЫГОДНО!</b>",
+          "favorite": "СПЕЦ. ПРЕДЛОЖЕНИЕ ▼",
+          "title1": "ПРЕМИУМ КОМПЛЕКТАЦИЯ",
+          "text1": "В городе, за городом, в путешествиях, запас батареи на 100 км, скорость до 45 км/час",
+          "currency1": "",
+          "price1": "47500&nbsp;Р",
+          "period1": "",
+          "list1": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">Двигатель: 350W</li><li class=\"pricing__feature\">Аккумулятор: 48V15A</li></ul>",
+          "button1": "<a data-app-btn=\"true\" href=\"page1.html\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Заказать</a>",
+          "title2": "ЭКОНОМ КОМПЛЕКТАЦИЯ",
+          "text2": "В парках, в городе, работа-дом-работа, запас батареи на 40 км, скорость до 30 км/час",
+          "currency2": "",
+          "price2": "39900 Р",
+          "period2": "",
+          "list2": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">Двигатель: 250W</li><li class=\"pricing__feature\">Аккумулятор: 36V12A</li></ul>",
+          "button2": "<a data-app-btn=\"true\" href=\"page1.html\" class=\"btn mbr-title-font btn-primary\" data-toolbar=\"-mbrBtnMove\">Заказать</a>",
+          "title3": "DEVELOPER",
+          "text3": "Perfect for small less than 10 team",
+          "currency3": "$",
+          "price3": "99",
+          "period3": "/ month",
+          "list3": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">1 GB of space</li><li class=\"pricing__feature\">Support at $25/hour</li><li class=\"pricing__feature\">Small social media</li></ul>",
+          "button3": "<a data-app-btn=\"true\" href=\"http://mobiris.ru\" class=\"btn mbr-title-font btn-primary\">ВЫБЕРИТЕ ПЛАН</a>",
+          "title4": "SUPER",
+          "text4": "Perfect for small less than 10 team",
+          "currency4": "$",
+          "price4": "199",
+          "period4": "/ month",
+          "list4": "<ul class=\"pricing__feature-list mbr-text-font\"><li class=\"pricing__feature\">9 GB of space</li><li class=\"pricing__feature\">Support at $25/hour</li><li class=\"pricing__feature\">Small social media</li></ul>",
+          "button4": "<a data-app-btn=\"true\" href=\"http://mobiris.ru\" class=\"btn mbr-title-font btn-primary\">ВЫБЕРИТЕ ПЛАН</a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "pricing-table1",
+          "_anchor": "pricing-table1-2t",
+          "_styles": {
+            ".pricing__item__popular > .popular": {
+              "font-size": "13px"
+            },
+            "H1": {
+              "font-size": "21px",
+              "color": "#1d1d1d"
+            },
+            "P": {
+              "color": "#1d1d1d"
+            },
+            "B": {
+              "color": "#1d1d1d"
+            }
+          }
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showMedia": true,
+            "showButtons": false,
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive center-content",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-03-16-at-22.27.31-632x433.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "https://www.youtube.com/watch?v=z41Uy3Tg-yI",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "Необходимый набор мы дарим в подарок!",
+          "text": "Полная комплектация: крылья, замок, насос, инструменты, отражатель, звонок, сумка, держатель для бутылки, наклейки, светящиеся нипеля!<br>",
+          "buttons": "<a data-app-btn=\"true\" href=\"index.html#header4-1e\" class=\"btn mbr-title-font btn-lg btn-primary\" data-toolbar=\"-mbrBtnMove\">ЗАПИСАТЬСЯ НА ТЕСТ-ДРАЙВ</a>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-1d"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "tabs": "5",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#3c3c3c",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "title": "ЧАСТЫЕ ВОПРОСЫ",
+          "title1": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#msg-box6-2x\" data-core=\"\" href=\"#collapseOnemsg-box6-2x\" aria-expanded=\"false\" aria-controls=\"collapseOne\">Можно ли провозить велосипед в метро?</a>",
+          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#msg-box6-2x\" data-core=\"\" href=\"#collapseTwomsg-box6-2x\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">Как долго нужно заряжать аккумулятор</a>",
+          "title3": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#msg-box6-2x\" data-core=\"\" href=\"#collapseThreemsg-box6-2x\" aria-expanded=\"false\" aria-controls=\"collapseThree\">Можно ли снять аккумулятор и зарядить его дома?</a>",
+          "title4": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#msg-box6-2x\" data-core=\"\" href=\"#collapseFourmsg-box6-2x\" aria-expanded=\"true\" aria-controls=\"collapseFour\">Какую дистанцию может проехать электровелосипед на одном заряде?</a>",
+          "title5": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#msg-box6-2x\" data-core=\"\" href=\"#collapseFivemsg-box6-2x\" aria-expanded=\"true\" aria-controls=\"collapseFive\">Можно ли  электровелосипеды эксплуатировать во время дождя?</a>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#msg-box6\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text1": "<p>Да, конечно! Складная конструкция позволяет сложить велосипед ровно пополам. Никаких вопросов со стороны работников метро к вам не будет.</p>",
+          "text2": "<p>Аккумулятор до полной зарядки должен заряжаться 5-6 час.</p>",
+          "text3": "<p>Да. В комплекте идет удобная переносная сумка. Вам просто нужно отсоединить контакты.</p>",
+          "text4": "<p>Максимальный пробег на 1 заряде составляет от 40 до 100 км в зависимости от модели и типа аккумулятора. Факторы, которые влияют на дистанцию пробега на 1 зарядке: тип местности, вес (нагрузка на транспортное средство), количество торможений и стартов и т.д.</p>",
+          "text5": "<p>Электротранспортные средства могут использовать во время дождя (только не на длительное время). Мотор-колеса защищены от попадания влаги. Если транспортное средство все-таки промокло во время дождя и влага попала внутрь отсека, то во избегании короткого замыкания электрические части (разъемы батареи, аккумуляторы, контроллер) рекомендуется протереть сухой салфеткой перед началом движения или просушить в помещении.</p>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-2x",
+          "_styles": {
+            "H1": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5
+          },
+          "text": "© 2018. PLENTY. ВСЕ ПРАВА ЗАЩИЩЕНЫ",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1a",
+          "_styles": {
+            "DIV": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#3c3c3c",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": 0.5,
+            "googleMap": {
+              "address": "москва шоссе фрезер 5",
+              "placeId": "ChIJhT23W1C1SkER_pjy8dwOsH4",
+              "state": "ok",
+              "stateDetails": ""
+            }
+          },
+          "title1": "PLENTY",
+          "text1": "<p>Склад в Москве: Шоссе Фрезер 5/1<br>Тел.:&nbsp;+7 (495) 178 03 40<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+7 (985( 467 37 04<br>EMAIL: fatbike@one-msk.ru<br></p>",
+          "icons": "<a class=\"fa\" data-app-btn=\"true\" title=\"LinkedIn\" target=\"_blank\" href=\"https://www.linkedin.com/in/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrLinkColor\"></a>      ",
+          "text2": "Рабочие часы:<br>Каждый день с &nbsp;10 утра до 9 вечера",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-ico\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ЗАДАТЬ ВОПРОС<i class=\"fa fa-paper-plane-o\"></i></a>",
+          "title": "ЕСТЬ ВоПРосы? Задайте!",
+          "form": {
+            "action": "ocunob-as@yandex.ru",
+            "alerts": {
+              "success": "Сообщение отправлено!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Name",
+                "customTitle": "Имя"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Email"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Ваш вопрос"
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts4",
+          "_anchor": "contacts4-2q",
+          "_styles": {
+            "H5": {
+              "color": "#ffffff"
+            },
+            "H1": {
+              "color": "#ffffff"
+            },
+            "B": {
+              "font-size": "18px"
+            },
+            "P": {
+              "color": "#ffffff"
+            }
+          }
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "title": "Оставить заявку",
+        "order": 1
+      },
+      "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showForm": true,
+            "paddingTop": "0",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/11.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#1d1d1d",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/embed/Y6HRh-PzF9E?rel=0&amp;showinfo=0&autoplay=0&loop=0",
+              "rawUrl": "https://www.youtube.com/watch?v=Y6HRh-PzF9E",
+              "width": 1280,
+              "height": 720
+            },
+            "overlay": true,
+            "overlayColor": "#151515",
+            "overlayOpacity": "1"
+          },
+          "title1": "<br><br><br>Оставить заявку<br><br>",
+          "text": "Nam tellus turpis blandit et ligula vel lacinia massa sit amet minus fugit in ipsum semper euismod massa auctor magna eget nunc iaculis nunc.",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn mbr-title-font btn-primary btn-block\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ЗАКАЗАТЬ</a>",
+          "form": {
+            "title": "SUBSCRIBE",
+            "action": "ocunob-as@yandex.ru",
+            "alerts": {
+              "success": "Благодарим за заполнение формы!"
+            },
+            "fields": {
+              "name": {
+                "visible": true,
+                "title": "Full Name",
+                "customTitle": "Имя"
+              },
+              "email": {
+                "visible": true,
+                "title": "Email",
+                "customTitle": "Телефон"
+              }
+            }
+          },
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header4",
+          "_anchor": "header4-34"
+        }
+      ]
+    }
+  }
+}
